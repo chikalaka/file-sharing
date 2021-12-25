@@ -1,0 +1,35 @@
+.dropZone {
+    border: 1px solid black;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 20px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.retentionTimeContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    font-size: 22px;
+}
+
+.retentionInput {
+    margin-right: 10px !important;
+}
+
+.downloadIcon {
+    font-size: 100px !important;
+}
+
+.inputFile {
+    display: none;
+}
+
+.retentionText {
+    margin-right: 10px;
+}
