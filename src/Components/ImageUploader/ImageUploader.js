@@ -5,7 +5,7 @@ import styles from './ImageUploader.module.css'
 const ImageUploader = () => {
   const acceptFileTypes = 'image/*'
   const isValidType = (type) => type.slice(0, 6) === 'image/'
-  const url = 'http://localhost:9000/images'
+  const url = 'https://image-sharing-server.herokuapp.com/images'
 
   return (
     <FileUploader isValidType={isValidType}
